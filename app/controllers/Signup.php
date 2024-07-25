@@ -18,6 +18,7 @@ class Signup
 	public function index()
 	{
 		$data = [];
+		
 		$req = new Request;
 		if($req->posted())
 		{

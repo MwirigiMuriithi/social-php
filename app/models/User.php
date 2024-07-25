@@ -52,6 +52,7 @@ class User
         CREATE TABLE IF NOT EXISTS users (
             id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
             email VARCHAR(100) NOT NULL,
+            image VARCHAR(1024) NULL,
             password VARCHAR(250) NOT NULL,
             username VARCHAR(250) NOT NULL,
             image VARCHAR(250),
