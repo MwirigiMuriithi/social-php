@@ -352,3 +352,4 @@ function delete_images_from_content(string $content, string $content_new = ''):v
 
 }
 
+

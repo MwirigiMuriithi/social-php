@@ -77,7 +77,6 @@ class Request
 
 		return $default;
 	}
-
 	/** get a value from the REQUEST variable **/
 	public function input(string $key, mixed $default = ''):mixed
 	{
@@ -89,6 +88,15 @@ class Request
 
 		return $default;
 	}
+/*put data into the post variable */
+	public function set(string $key, mixed $value = ''):void
+	{ 		
+				$_POST[$key] = $value;
+
+		}
+	
+
+
 
 	/** get all values from the REQUEST variable **/
 	public function all():mixed
